@@ -36,7 +36,7 @@ jobs:
           #gsutil cp * gs://desu-project/uploadfiles/
           #gsutil -m cp -r * gs://desu-project/uploadfiles/
           
-          # Copy file VM 
+          # Copy file VM  
           #gcloud compute scp document.txt instance-2:/home/gangeria6060/project --project=panel-379806 --zone=us-west4-b
           gcloud compute scp --recurse --ssh-key-file= ~/.ssh/google_compute_engine document.txt root@instance-2:/home/gangeria6060/project --project=panel-379806 --zone=us-west4-b
           
