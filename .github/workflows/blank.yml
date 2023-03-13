@@ -30,9 +30,10 @@ jobs:
       - name: Set up Cloud SDK 1
         uses: google-github-actions/setup-gcloud@v1
         
-      - name: Install SSH
+      - name: Connect VM
         run: |
-          gcloud compute instances describe instance-2 --zone=us-west4-b
+          #gcloud compute instances describe instance-2 --zone=us-west4-b
+          gcloud compute ssh instance-2 --zone=us-west4-b
 
       - name: Upload file to GCS
         run: |
