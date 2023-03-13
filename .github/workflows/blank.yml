@@ -38,7 +38,7 @@ jobs:
           
           # Copy file VM  
           #gcloud compute scp document.txt instance-2:/home/gangeria6060/project --project=panel-379806 --zone=us-west4-b
-          gcloud compute scp --recurse --ssh-key-file= ~/.ssh/google_compute_engine document.txt root@instance-2:/home/gangeria6060/project --project=panel-379806 --zone=us-west4-b
+          gcloud compute scp --recurse --ssh-key-file= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC0BgivbaKi5nF/Ws7g7QexNgN8T23O4nzs5GWytVgxzHsaVX5RRmy1cY54n8KgFbMbj+h0b97jBB2mgaGzu3y+YONpGuFMzwYnLvekAZdTp87xUvmWIFdshB+ZBZsqdexOQGsCerQb0PTUnx0FRWZHUusD7pP25phlk9bX0EOsV7u9EMPlkF/iirPML2VTpIVGw1c9mH89iScZcxj4mQ6DNRhbQNdgz2/1ezD5/gXKaWaBZGZeVUP+pvj5iXMlH2xHwXEg3kEfPhKB8Km5cEBp1nGhE+nOzvslEk9cbcNcI28UsDchcZzFBcQAwH8and+EVXtPciVNQ6J7EPBL+WmpYe3gfwKe5hrAvYRvCwBj3AMxYrXOzUJIJpL7G0tsbZdKuMTCKbA6L+04xEwLivHoMAaS60JFvHTw0YrRMMrt/QjCPbV+U/O90zD0f7iUXG1FX2EBhk+cctJ9Y70dcG+Lowv56sCu0a866pd4Gf3zjL5Sc5+U+4KVLTSVOwJyogU= runner@fv-az471-645 document.txt root@instance-2:/home/gangeria6060/project --project=panel-379806 --zone=us-west4-b
           
        
           
