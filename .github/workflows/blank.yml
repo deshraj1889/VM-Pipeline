@@ -27,7 +27,7 @@ jobs:
                 credentials_json: ${{ secrets.RUN_SA_KEY}}
                 service_account: ${{ secrets.SA_EMAIL }}
 
-      - name: Set up Cloud SDK
+      - name: Set up Cloud SDK 1
         uses: google-github-actions/setup-gcloud@v1
 
       - name: Upload file to GCS
