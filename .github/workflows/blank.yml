@@ -5,7 +5,7 @@ on:
       - main
       - build
     paths:
-     - 'index.html'
+     - 'document.txt'
      - 'new folder/**'
      - '.github/workflows/blank.yml'
         
