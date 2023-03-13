@@ -32,7 +32,7 @@ jobs:
         
       - name: Install SSH
         run: |
-          gcloud compute instances describe instance-2
+          gcloud compute instances describe instance-2 --zone=us-west4-b
 
       - name: Upload file to GCS
         run: |
