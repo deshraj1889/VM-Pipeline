@@ -33,7 +33,7 @@ jobs:
       # gcloud auth login
       - name: Gcloud login
         run: |
-          gcloud auth login
+          gcloud auth login --no-launch-browser
 
       - name: Upload file to GCS
         run: |
