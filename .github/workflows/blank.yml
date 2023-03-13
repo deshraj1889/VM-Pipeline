@@ -33,8 +33,7 @@ jobs:
       - name: Connect VM
         run: |
           #gcloud compute instances describe instance-2 --zone=us-west4-b
-          #gcloud compute ssh instance-2 --zone=us-west4-b
-          gcloud compute ssh --project=panel-379806 --zone=us-west4-b root@instance-2
+          gcloud compute ssh instance-2 --zone=us-west4-b
 
       - name: Upload file to GCS
         run: |
