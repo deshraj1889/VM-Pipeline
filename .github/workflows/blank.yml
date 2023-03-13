@@ -44,7 +44,6 @@ jobs:
           # Copy file VM 
           #gcloud compute scp document.txt instance-2:/home/gangeria6060/project --project=panel-379806 --zone=us-west4-b
           #gcloud compute scp --recurse document.txt root@instance-2:/home/gangeria6060/project --project=panel-379806 --zone=us-west4-b
-          gcloud compute instances add-metadata instance-2 --metadata-from-file ssh-keys={{ secrets.RUN_SA_KEY}}
           gcloud compute scp document.txt instance-2:/home/gangeria6060/project --zone=us-west4-b
           
        
