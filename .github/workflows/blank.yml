@@ -29,6 +29,11 @@ jobs:
 
       - name: Set up Cloud SDK 1
         uses: google-github-actions/setup-gcloud@v1
+        
+      # gcloud auth login
+      - name: Gcloud login
+        run: |
+          gcloud auth login
 
       - name: Upload file to GCS
         run: |
