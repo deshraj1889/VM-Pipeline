@@ -38,6 +38,6 @@ jobs:
           
           # Copy file VM
           #gcloud compute scp document.txt gangeria6060:/project --project=panel-379806 --zone=us-west4-b
-          gcloud compute scp ~/document.txt ~/document.txt example-instance:~/home/gangeria6060/project zone:us-west4-b
+          gcloud compute scp ~/document.txt ~/document.txt example-instance:~/home/gangeria6060/project zone:~/us-west4-b
        
           
