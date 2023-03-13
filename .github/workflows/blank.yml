@@ -6,8 +6,8 @@ on:
       - build
     paths:
      - 'index.html'
-     - 'css/**'
-     - '.github/workflows/static.yml'
+     - 'new folder/**'
+     - '.github/workflows/blank.yml'
         
 jobs:
   upload:
